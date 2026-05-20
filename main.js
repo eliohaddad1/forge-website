@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // =============================================
     const contactForm = document.getElementById('contact-form');
     
-    // Real-time form validation feedback (native POST handled by FormSubmit)
+    // Real-time form validation feedback (native POST handled by Web3Forms)
     const formInputs = contactForm?.querySelectorAll('input, textarea, select');
     formInputs?.forEach(input => {
         input.addEventListener('blur', () => {
